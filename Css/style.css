@@ -53,3 +53,7 @@ body {
   background-color: #576f35;
   border-radius: 10px;
 }
+.visually-hidden {
+  overflow: hidden;
+  visibility: hidden;
+}

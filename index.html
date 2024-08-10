@@ -1,130 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="favicon" href="/images/favicon.ico" />
+    <!--<link rel="icon" type="#" href="#" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GreenHarvest</title>
-    <link rel="stylesheet" href="/Css/modern-normalize.min.css"/>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/Css/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&display=swap" rel="stylesheet" />
-    <script type="module" src="/Js/javascript.js"></script>
-    <link rel="stylesheet" href="/Css/style.css"/>
-    <link rel="stylesheet" href="/Css/responsive.css"/>
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="#" />
+    <script src="/Js/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Css/style.css" />
+  </head>
 
-<body>
-    <!--Header-->
-    <header>
-    </header>
+  <body>
+    <!--header-->
+    <header class="header"></header>
 
-    <!--Hero-->
-    <section >
+    <!--section1-->
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="hero-h1">ORGANIC VEGETABLES TO YOUR DIET TODAY!</h1>
+        <p class="hero-paragraph">Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh Harvest
+        Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.</p>
+      </div>
+      <div class="hero-right">
+        <img src="./images/vegi-basket.jpg" alt="">
+      </div>
     </section>
 
-    <!--How it works-->
-    <section>
+    <!--section2-->
+    <section class="how-it-works"></section>
 
+    <!--section3-->
+    <section class="advertisement"></section>
+
+    <!--section4-->
+    <section class="vegetables"></section>
+
+    <!--section5-->
+    <section class="reviews">
+      
     </section>
 
-    <!--Advertisement-->
-    <section class="section advertisement-section">
-        <div class="container advertisement-container">
-            <h2 class="advertisement-title">Advertisement</h2>
+    <!--section6-->
+    <section class="your-order"></section>
 
-            <p class="advertisement-text">
-                <span class="text-discount">Discount up to 40%!</span>Taste the vitamins
-                and keep your health
-            </p>
-        </div>
-    </section>
-
-    <!--Vegetables-->
-    <section>
-    </section>
-
-    <!--Reviews-->
-    <section>
-    </section>
-
-    <!--Your order-->
-    <section>
-        <div class="container">
-            <h2 class="advertisement-title">Fresh Harvest Box has got you covered</h2>
-            <h2 class="order-title">
-                Fresh <span class="harvest-txt">Harvest</span> Box has got you
-                covered
-            </h2>
-            <p class="harvest-text">
-                Our boxes are packed with delicious, nutritious vegetables, perfect for
-                anyone looking to eat healthier or support local farmers. Order your box
-                today and start enjoying the best that nature has to offer!
-            </p>
-
-            <div class="order-row">
-                <div class="order-col">
-                    <p class="order-txt">
-                        Ordering <span class="from-txt">from us</span> is quick and easy! Fill
-                        out <span class="form-txt">the form</span> below and we will contact
-                        you !
-                    </p>
-
-                    <form class="order-form">
-                        <div class="order-label-tag" aria-label="Write your Full name">
-                            <label class="order-label">
-                                <input class="order-input" type="text" name="user-name" placeholder="Full Name" />
-                            </label>
-                        </div>
-
-                        <div class="order-label-tag">
-                            <label class="order-label" aria-label="Write your email">
-                                <input class="order-input" type="email" name="user-email" placeholder="Email"
-                                    pattern="([a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$)" required />
-                            </label>
-                        </div>
-
-                        <div class="order-comment-tag">
-                            <label class="order-label" aria-label="Write your Comment">
-                                <textarea class="order-comment" name="user-comment" placeholder="Comment"></textarea>
-                            </label>
-                        </div>
-
-                        <button class="order-btn" type="submit">
-                            Send
-                        </button>
-                    </form>
-                </div>
-
-                <div class="your-order-social">
-                    <div class="your-order-img">
-                            <img class="order-social-img"
-                                src="/images/women-pic-cut.jpg"
-                                alt="women-pic-cut" />
-                        <p class="order-font"></p>
-                    </div>
-                    <p class="follow-text">Follow us on our social networks:</p>
-                    <ul class="follow-list">
-                        <li class="follow-us">
-                            <a target="_blank" href="https://www.instagram.com/goit.turkiye/">instagram</a>
-                        </li>
-                        <li class="follow-slash"><span>/</span></li>
-                        <li class="follow-us">
-                            <a target="_blank" href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/">facebook</a>
-                        </li>
-                        <li class="follow-slash"><span>/</span></li>
-                        <li class="follow-us">
-                            <a target="_blank" href="https://m.youtube.com/@GoITTurkey">youtube</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Footer-->
-    <footer>
-    </footer>
-</body>
-
+    <!--footer-->
+    <footer class="footer"></footer>
+  </body>
 </html>

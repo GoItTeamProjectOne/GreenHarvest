@@ -57,3 +57,27 @@ body {
   overflow: hidden;
   visibility: hidden;
 }
+
+@media (min-width: 768px) and (max-width: 1157px) {
+  .advertisement {
+    width: 100%;
+    padding: 100px 16px;
+  }
+  .advers-p {
+    font-size: 64px;
+    line-height: 109%;
+  }
+  .advers-span {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 768px) {
+  .advertisement {
+    width: 100%;
+  }
+  .advers-p {
+    font-size: 48px;
+    line-height: 104%;
+  }
+}

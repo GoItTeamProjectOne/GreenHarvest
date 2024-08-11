@@ -61,13 +61,11 @@ body {
 }
 
 .section {
-    padding: 80px 0
+    padding: 80px 0;
+    background-color: #fbfbfb;
 }
 
 
-.advertisement-section {
-    background-color: #fbfbfb
-}
 
 .advertisement-container {
     padding: 0;
